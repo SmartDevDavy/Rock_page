@@ -1,0 +1,95 @@
+
+
+.body {
+    background-color: rgb(127, 167, 127);
+    text-align: center;
+    font-weight: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    background-color: rgb(45, 26, 2);
+    padding: 20px;
+    color: rgb(244, 10, 119);
+    font-weight: 900;
+    font-size: 50px;
+    animation: yees 10s linear infinite;
+}
+
+.btn {
+    padding: 5px 20px;
+    margin:40px 10px;
+    border: solid 5px blue;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    
+}
+
+
+#resultDisplay {
+    font-size: 20px;
+}
+#rock {
+    background-color: yellow;
+}
+
+#rock:hover{
+    background-color: rgb(155, 178, 109);
+    color: blueviolet;
+    border: solid 10px rgb(228, 178, 13);
+}
+
+#paper {
+    background-color: rgb(7, 216, 244);
+}
+
+@keyframes yees {
+    25%{color: rgb(24, 234, 24);}
+    50%{color: red;}
+    100%{color: blue;}
+    
+}
+#paper:hover{
+    background-color: hsl(101, 34%, 21%);
+    color: white;
+    border: solid 10px rgb(209, 213, 215);
+}
+
+
+#scissors {
+    background-color: rgb(8, 8, 8);
+    color: white;
+   
+}
+
+
+#scissors:hover{
+    background-color: rgb(60, 232, 60);
+    color: blue;
+    border: solid 10px red;
+}
+.btns {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+   
+}
+
+#resultDisplay{
+    font-size:  5rem;
+    margin: 30px 0;
+}
+
+p {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
